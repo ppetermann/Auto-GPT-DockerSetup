@@ -1,0 +1,4 @@
+# requirements.txt
+# this is where you should add the requirements of any plugins you might install
+
+weaviate-client>=3.15.4
