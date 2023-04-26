@@ -8,7 +8,6 @@ services:
     env_file:
       - .env
     volumes:
-      - "./workspace:/app/auto_gpt_workspace/" 
       - "./workspace:/app/autogpt/auto_gpt_workspace/"
       - "./plugins:/app/plugins/"
       - "./personas:/app/personas"
