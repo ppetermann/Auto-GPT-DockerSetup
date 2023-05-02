@@ -29,7 +29,7 @@ WEAVIATE_HOST="127.0.0.1"
 WEAVIATE_PORT=8080
 WEAVIATE_PROTOCOL="http"
 USE_WEAVIATE_EMBEDDED=True
-WEAVIATE_EMBEDDED_PATH="/app/autogpt/auto_gpt_workspace/aviate"
+WEAVIATE_EMBEDDED_PATH="/app/aviate"
 ```
 5. if you want to run any plugins
     - copy their zip files into the plugins folder
