@@ -11,4 +11,6 @@ services:
       - "./workspace:/app/autogpt/auto_gpt_workspace/"
       - "./plugins:/app/plugins/"
       - "./personas:/app/personas"
+      - "./data:/app/data"
+      - "./logs:/app/logs"
     profiles: ["exclude-from-up"]
